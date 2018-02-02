@@ -1,0 +1,237 @@
+header {
+  /* position: absolute; */
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: #263238;
+  color: #000;
+}
+header a.logo {
+  position: absolute;
+  display:block;
+  background-image: url('./resources/loginIcon.png');
+  /* margin-left: 100px; */
+  right:20px;
+  text-align: center;
+}
+header a.menu {
+  display:block;
+  margin-left: 15px;
+}
+header .title {
+  position:absolute;
+  display:block;
+  color: #fff;
+  /* margin-left: 130px; */
+  right:165px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.navigation {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: #708090;
+}
+
+.nav-container .nav-bar-wrapper .navbar {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: -8px;
+}
+
+.nav-container .nav-bar-wrapper .nav-item {
+  display: table-cell;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.nav-container .nav-bar-wrapper .nav-item .navbar-item {
+  display:block;
+  color:#fff;
+  text-decoration: none;
+}
+.content {
+  background-color: #465B66;
+  width: 100%;
+}
+.content .AppImage {
+  display: block;
+  float: left;
+  margin-top: 5px;
+}
+.content .AppImage .AppIcon {
+  margin-left: 10px;
+}
+.content .AppInfo {
+  display: block;
+  right: 50px;
+  margin-left: 70px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.content .AppInfo .AppName {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+.content .AppInfo .GetButton {
+  position:absolute;
+  right: 40px;
+  width:60px;
+  background-color: #0288D1;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  height: 25px;
+}
+.content .AppInfo .line {
+  width: 300px;
+  height: 7px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #4FC3F7;
+}
+.AppDetails {
+  background-color: #465B66;
+}
+.AppDetails .AppTitle {
+  height: 100px;
+}
+.AppDetails .AppTitle .AppName {
+  color: #fff;
+  margin-left: 30px;
+}
+.AppDetails .AppTitle .AppName .appLabel {
+  font-size: 20px;
+}
+.AppDetails .AppTitle .AppName .blockApps {
+  font-size: 12px;
+  margin-top: -15px;
+}
+.AppDetails .AppTitle .AppName .starIcon {
+  font-size: 12px;
+  margin-right: 2px;
+}
+.AppDetails .AppTitle .AppName .LaunchButton {
+  position:absolute;
+  right: 10px;
+  width:80px;
+  background-color: #0288D1;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  height: 25px;
+}
+.AppDetails .AppTitle .AppThumbnail .thumbnailImage {
+  margin-left: 10px;
+}
+.AppDetails .Screenshots {
+  display: block;
+  height: 190px;
+}
+.AppDetails .Screenshots .screenshotTitle {
+  color: #fff;
+  font-size: 12px;
+  margin-left: 12px;
+}
+.AppDetails .Screenshots .screenshotImage {
+  margin-left: 10px;
+}
+.AppDetails .Description {
+  height: 80px;
+}
+.AppDetails .Description .loremContent {
+  font-size: 13px;
+  color:#fff;
+  margin-left: 10px;
+}
+.AppDetails .Description .viewMore {
+  font-size: 11px;
+  margin-left: 10px;
+  margin-top: -18px;
+}
+footer {
+  background-color: #35454D;
+  height: 80px;
+}
+.footer-nav-container .footer-nav-bar-wrapper {
+  display:block;
+}
+.footer-nav-container .footer-nav-bar-wrapper .footer-navbar {
+  display: table;
+  table-layout: fixed;
+  width:100%;
+  height:80px;
+}
+.footer-nav-container .footer-nav-bar-wrapper .footer-nav-item {
+  display:table-cell;
+  text-align: center;
+  font-size: 12px;
+  width:100%;
+  height:50px;
+  cursor:pointer;
+}
+.footer-nav-container .footer-nav-bar-wrapper .footer-nav-item .footer-navbar-item {
+  display: block;
+  height: 50px;
+  width: 30px;
+  color: #fff;
+  text-decoration: none;
+  background: center 10px no-repeat;
+  padding: 20px 5px 0;
+}
+.footer-nav-container .footer-nav-bar-wrapper .footer-nav-item .footer-navbar-item.1 {
+  background-image: url('./placeHolder.png');
+}
+
+.Login {
+  height: 350px;
+  background-color: #35454D;
+}
+.LoginOptions {
+  display: block;
+  margin-left: 150px;
+  margin-top: 40px;
+  background-color: #35454D;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  color: #fff;
+}
+.Username {
+  display: block;
+  margin-left: 150px;
+  margin-top: 40px;
+  background-color: #35454D;
+  border-radius: 5px;
+  width: 150px;
+  padding-left: 10px;
+  height: 30px;
+  color: #fff;
+}
+.Password {
+  display: block;
+  margin-left: 135px;
+  margin-top: 20px;
+  background-color: #35454D;
+  border-radius: 5px;
+  width: 150px;
+  padding-left: 10px;
+  height: 30px;
+  color: #fff;
+}
+.LoginButton {
+  background-color: #708090;
+  color:#fff;
+  width: 90px;
+  border-radius: 5px;
+  margin-left: 175px;
+  margin-top: 20px;
+  text-align: center;
+}
